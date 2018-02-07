@@ -7,8 +7,8 @@
 /* Banner */
 
 	#banner {
-		@include vendor('align-items', 'center');
-		@include vendor('background-image', 'url("../images/banner.jpg")');
+    @include vendor('align-items', 'center');
+    @include vendor('background-image', 'url("../images/banner.jpg")');
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
 		background-attachment: fixed;
@@ -173,5 +173,9 @@
 			&.major {
 				@include padding(6em, 0, (2em, 0, 0, 0));
 			}
-		}
-	}
+    }
+  }
+
+  .boston-banner {
+    @include vendor('background-image', 'url("../images/bannerBoston.jpg") !important');
+  }

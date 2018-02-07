@@ -28,8 +28,8 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Learn</h3>
-                                <p>Identify gaps between now and Cloud Native with reccommended reading</p>
+                                <h3>Who We Are</h3>
+                                <p>The DNA of a cloud native team</p>
                             </header>
                             <Link to="/learn" className="link primary"></Link>
                         </article>
